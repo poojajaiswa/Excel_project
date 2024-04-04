@@ -1,0 +1,10 @@
+SQL QUERY SUMMARY
+1)-->to get average of salary 
+---  select avg(salary) from tablename;
+
+2)--> to get all employee salary whose salary is greater than avg salary
+---  select * from table_name where salary >(select avg(salary) from table_name);
+
+
+
+ 
